@@ -1,0 +1,20 @@
+{
+  "api": "5",
+  "type": "tv",
+  "name": "影视天堂",
+  "version": "看剧",
+  "muliSources": true,
+  "useWebview": true,
+  "useWebviewForPages": false,
+  "useNativePlayer": true,
+  "useLegacyParser": false,
+  "userAgent": "",
+  "referer": "https://ysttv.com/",
+  "baseURL": "https://ysttv.com",
+  "searchURL": "https://ysttv.com/search/index/type/1/keyword/@keyword",
+  "searchList": "//main/div/div[2]/div[1]/ul//li",
+  "searchName": "//a/div[2]/h2",
+  "searchResult": "//a",
+  "chapterRoads": "//main/div[1]/div[3]/div[1]/div[1]/div/div//ul",
+  "chapterResult": "//li/a"
+}
