@@ -1,0 +1,20 @@
+{
+  "api": "5",
+  "type": "tv",
+  "name": "爱壹帆",
+  "version": "看剧",
+  "muliSources": true,
+  "useWebview": true,
+  "useWebviewForPages": false,
+  "useNativePlayer": true,
+  "useLegacyParser": false,
+  "userAgent": "",
+  "referer": "https://www.iyf.lv/",
+  "baseURL": "https://www.iyf.lv",
+  "searchURL": "https://www.iyf.lv/s/-------------/?wd=@keyword",
+  "searchList": "//div[1]/div[3]/div/div/div[2]//div",
+  "searchName": "//div[1]/div[2]/div[1]/a/strong",
+  "searchResult": "//div[1]/div[3]/a[2]",
+  "chapterRoads": "//div/div[3]/div/div[2]//div",
+  "chapterResult": "//div/div/a"
+}

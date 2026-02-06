@@ -1,0 +1,20 @@
+{
+  "api": "5",
+  "type": "tv",
+  "name": "柯南影视",
+  "version": "1.0",
+  "muliSources": true,
+  "useWebview": true,
+  "useWebviewForPages": false,
+  "useNativePlayer": true,
+  "useLegacyParser": false,
+  "userAgent": "",
+  "referer": "https://www.knvod.com/",
+  "baseURL": "https://www.knvod.com",
+  "searchURL": "https://www.knvod.com/daxiaoren/@keyword-------------/",
+  "searchList": "//div[4]/div/div[1]//div",
+  "searchName": "//div[1]/div[3]/div[1]/div[1]/a",
+  "searchResult": "//div[1]/div[3]/div[2]/a",
+  "chapterRoads": "//div[5]/div[2]/div/div",
+  "chapterResult": "//div/ul/li/a"
+}

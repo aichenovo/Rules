@@ -1,0 +1,20 @@
+{
+  "api": "5",
+  "type": "tv",
+  "name": "Bttwo影视",
+  "version": "看剧",
+  "muliSources": true,
+  "useWebview": true,
+  "useWebviewForPages": false,
+  "useNativePlayer": true,
+  "useLegacyParser": false,
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+  "referer": "https://www.bttwo.org/",
+  "baseURL": "https://www.bttwo.org",
+  "searchURL": "https://www.bttwo.org/xssssearch?q=@keyword",
+  "searchList": "//div[contains(@class,'search_list')]//ul/li",
+  "searchName": ".//h3[contains(@class,'dytit')]/a",
+  "searchResult": ".//h3[contains(@class,'dytit')]/a",
+  "chapterRoads": "//div[contains(@class,'paly_list_btn')]",
+  "chapterResult": ".//a"
+}
