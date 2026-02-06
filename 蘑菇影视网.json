@@ -1,0 +1,20 @@
+{
+  "api": "5",
+  "type": "tv",
+  "name": "蘑菇影视网",
+  "version": "看剧",
+  "muliSources": true,
+  "useWebview": true,
+  "useWebviewForPages": false,
+  "useNativePlayer": true,
+  "useLegacyParser": false,
+  "userAgent": "",
+  "referer": "https://www.moguvodw.com/",
+  "baseURL": "https://www.moguvodw.com",
+  "searchURL": "https://www.moguvodw.com/vodsearch/-------------.html?wd=@keyword&submit=",
+  "searchList": "//div[2]/div/div[2]/div/div/div[1]/div/div[2]/div/ul[1]//li",
+  "searchName": "//div/div/div[2]/div[1]/a",
+  "searchResult": "'//div/div/div[2]/div[2]/a",
+  "chapterRoads": "//div[2]/div[2]/div/div/div[2]/div/div[1]/div[2]//div",
+  "chapterResult": "//div/div/ul/li/a"
+}
